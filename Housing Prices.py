@@ -5,6 +5,6 @@ import numpy as np
 NewHP=pd.read_csv(r'C:\Users\soksi\Downloads\form_41a-price-new-property-area-by_year_2.csv')
 SecondHP=pd.read_csv(r'C:\Users\soksi\Downloads\form_41c-price-sh-property-area-by_year_1.csv')
 print(NewHP.head())
-print(NewHP.info())
+print(NewHP.describe())
 print(SecondHP.head())
-print(SecondHP.info())
+print(SecondHP.describe())
